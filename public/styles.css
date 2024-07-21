@@ -1,0 +1,84 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3A3D40;
+    
+}
+
+h1{
+    font-size: 4rem;
+    color: #878053;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+
+}
+p{
+    color:aliceblue;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.ContactMe{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+    
+
+
+}
+.Todo{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+   
+    
+}
+.AboutMe{
+    display: inline-block;
+    justify-content: center;
+    margin:auto;
+    padding: 2em 1.5em;
+    
+    width: 40%;
+    margin-top: 1.5em;
+}
+.AboutTxt{
+    border-left-style: solid;
+    border-left: 0.5rem ridge #878053;
+  
+}
+.Projects{
+    display: inline-block;
+    justify-content: center;
+    padding: 2em 1.5em;
+    width: 40%;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 1.5em;
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:visited{
+    color: #5a9024b0;
+}
+a{
+    padding: 0;
+    border-bottom: #878053;
+    border-bottom-style: solid;
+}
+a:hover{
+    color: blue;
+}
+li{
+    list-style: none;
+}
+img{
+    height: 20px;
+    width: 20px;
+}
